@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: projectiq
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: SERVE_FRONTEND
+        value: "true"
+      - key: STATIC_DIR
+        value: /app/static
+      - key: DATABASE_URL
+        value: sqlite:////app/data/manufacturing_pm.db
+      - key: SECRET_KEY
+        generateValue: true
+      - key: OPENAI_API_KEY
+        sync: false
+    disk:
+      name: projectiq-data
+      mountPath: /app/data
+      sizeGB: 1

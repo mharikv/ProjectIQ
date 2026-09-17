@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-white text-gray-700 px-4 py-2 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors font-medium;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-200 p-6;
+  }
+  .input-field {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all;
+  }
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+.gantt-container { font-family: 'Segoe UI', system-ui, sans-serif; }
+.gantt-left-scroll::-webkit-scrollbar,
+.gantt-right-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.gantt-left-scroll::-webkit-scrollbar-thumb,
+.gantt-right-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+.chat-message p:last-child { margin-bottom: 0; }
+.chat-message ul, .chat-message ol { margin: 0.5rem 0; padding-left: 1.5rem; }
+.chat-message strong { font-weight: 600; }

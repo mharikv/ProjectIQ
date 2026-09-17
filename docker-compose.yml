@@ -1,0 +1,19 @@
+services:
+  projectiq:
+    build: .
+    env_file:
+      - backend/.env
+    ports:
+      - "8000:8000"
+    environment:
+      SERVE_FRONTEND: "true"
+      STATIC_DIR: /app/static
+      DATABASE_URL: sqlite:////app/data/manufacturing_pm.db
+    volumes:
+      - projectiq_data:/app/data
+      - projectiq_logs:/app/logs
+    restart: unless-stopped
+
+volumes:
+  projectiq_data:
+  projectiq_logs:

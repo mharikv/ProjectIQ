@@ -1,0 +1,1513 @@
+2026-08-01 07:05:44 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:05:44 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:05:44 | WARNING  | app.main | Repairing invalid WBS for project id=1 (type=dict)
+2026-08-01 07:05:44 | INFO     | app.main | Repaired JSON fields on 1 project(s)
+2026-08-01 07:05:44 | INFO     | app.main | Startup complete
+2026-08-01 07:05:51 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:05:51 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:05:51 | INFO     | app.main | Startup complete
+2026-08-01 07:05:55 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:05:55 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:05:55 | INFO     | app.main | Startup complete
+2026-08-01 07:05:59 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:05:59 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:06:00 | INFO     | app.main | Startup complete
+2026-08-01 07:06:00 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:00 | INFO     | app.main | GET /api/auth/me -> 200 (74.0ms)
+2026-08-01 07:06:00 | INFO     | app.main | GET /api/projects/ -> 200 (81.3ms)
+2026-08-01 07:06:00 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:00 | INFO     | app.main | GET /api/projects/ -> 200 (9.5ms)
+2026-08-01 07:06:00 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:00 | INFO     | app.main | GET /api/projects/ -> 200 (11.4ms)
+2026-08-01 07:06:00 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:00 | INFO     | app.main | GET /api/projects/ -> 200 (13.2ms)
+2026-08-01 07:06:01 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:01 | INFO     | app.main | GET /api/projects/ -> 200 (18.1ms)
+2026-08-01 07:06:01 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:01 | INFO     | app.main | GET /api/projects/ -> 200 (14.1ms)
+2026-08-01 07:06:01 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:01 | INFO     | app.main | GET /api/projects/ -> 200 (11.2ms)
+2026-08-01 07:06:03 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:03 | INFO     | app.main | GET /api/projects/ -> 200 (15.0ms)
+2026-08-01 07:06:10 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:10 | INFO     | app.main | GET /api/projects/ -> 200 (12.8ms)
+2026-08-01 07:06:10 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:06:10 | INFO     | app.main | GET /api/projects/ -> 200 (14.1ms)
+2026-08-01 07:06:18 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:06:18 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:06:18 | INFO     | app.main | Startup complete
+2026-08-01 07:06:39 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:06:39 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:06:39 | INFO     | app.main | Startup complete
+2026-08-01 07:06:58 | INFO     | app.main | GET /api/projects/1 -> 200 (58.2ms)
+2026-08-01 07:06:58 | INFO     | app.main | GET /api/projects/1 -> 200 (11.0ms)
+2026-08-01 07:07:08 | INFO     | app.routes.ai_features | Generating WBS for project id=1 user=pm_user
+2026-08-01 07:07:08 | INFO     | app.ai_service | Using mock AI response for feature=wbs
+2026-08-01 07:07:08 | INFO     | app.routes.ai_features | WBS generated successfully for project id=1 (5 items)
+2026-08-01 07:07:08 | INFO     | app.main | POST /api/ai/wbs/1 -> 200 (78.6ms)
+2026-08-01 07:07:08 | INFO     | app.main | GET /api/projects/1 -> 200 (13.1ms)
+2026-08-01 07:07:16 | INFO     | app.routes.ai_features | Generating Gantt for project id=1
+2026-08-01 07:07:16 | INFO     | app.ai_service | Using mock AI response for feature=gantt
+2026-08-01 07:07:16 | INFO     | app.main | POST /api/ai/gantt/1 -> 200 (28.2ms)
+2026-08-01 07:07:16 | INFO     | app.main | GET /api/projects/1 -> 200 (12.9ms)
+2026-08-01 07:07:26 | INFO     | app.routes.ai_features | Optimizing resources for project id=1
+2026-08-01 07:07:26 | INFO     | app.ai_service | Using mock AI response for feature=resources
+2026-08-01 07:07:26 | INFO     | app.main | POST /api/ai/resources/1 -> 200 (30.9ms)
+2026-08-01 07:07:26 | INFO     | app.main | GET /api/projects/1 -> 200 (13.3ms)
+2026-08-01 07:07:43 | INFO     | app.routes.ai_features | Analyzing budget for project id=1
+2026-08-01 07:07:43 | INFO     | app.ai_service | Using mock AI response for feature=budget
+2026-08-01 07:07:43 | INFO     | app.main | POST /api/ai/budget/1 -> 200 (30.3ms)
+2026-08-01 07:07:44 | INFO     | app.main | GET /api/projects/1 -> 200 (7.9ms)
+2026-08-01 07:07:51 | INFO     | app.routes.ai_features | Planning inventory for project id=1
+2026-08-01 07:07:51 | INFO     | app.ai_service | Using mock AI response for feature=inventory
+2026-08-01 07:07:51 | INFO     | app.main | POST /api/ai/inventory/1 -> 200 (44.5ms)
+2026-08-01 07:07:51 | INFO     | app.main | GET /api/projects/1 -> 200 (8.9ms)
+2026-08-01 07:07:55 | INFO     | app.routes.ai_features | Analyzing risks for project id=1
+2026-08-01 07:07:55 | INFO     | app.ai_service | Using mock AI response for feature=risks
+2026-08-01 07:07:55 | INFO     | app.main | POST /api/ai/risks/1 -> 200 (55.3ms)
+2026-08-01 07:07:55 | INFO     | app.main | GET /api/projects/1 -> 200 (11.1ms)
+2026-08-01 07:07:59 | INFO     | app.routes.ai_features | Analyzing quality for project id=1
+2026-08-01 07:07:59 | INFO     | app.ai_service | Using mock AI response for feature=quality
+2026-08-01 07:07:59 | INFO     | app.main | POST /api/ai/quality/1 -> 200 (36.2ms)
+2026-08-01 07:07:59 | INFO     | app.main | GET /api/projects/1 -> 200 (11.3ms)
+2026-08-01 07:08:03 | INFO     | app.routes.ai_features | Predicting maintenance for project id=1
+2026-08-01 07:08:03 | INFO     | app.ai_service | Using mock AI response for feature=maintenance
+2026-08-01 07:08:03 | INFO     | app.main | POST /api/ai/maintenance/1 -> 200 (51.2ms)
+2026-08-01 07:08:04 | INFO     | app.main | GET /api/projects/1 -> 200 (6.5ms)
+2026-08-01 07:08:10 | INFO     | app.routes.ai_features | Generating KPIs for project id=1
+2026-08-01 07:08:10 | INFO     | app.ai_service | Using mock AI response for feature=kpis
+2026-08-01 07:08:10 | INFO     | app.main | POST /api/ai/kpis/1 -> 200 (25.5ms)
+2026-08-01 07:08:10 | INFO     | app.main | GET /api/projects/1 -> 200 (8.3ms)
+2026-08-01 07:14:24 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:14:24 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:14:24 | INFO     | app.main | Startup complete
+2026-08-01 07:14:26 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:14:26 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:14:26 | INFO     | app.main | Startup complete
+2026-08-01 07:15:01 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:15:01 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:15:01 | INFO     | app.main | Startup complete
+2026-08-01 07:15:09 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:15:09 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:15:10 | INFO     | app.main | Startup complete
+2026-08-01 07:16:23 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:16:23 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:16:23 | INFO     | app.main | Startup complete
+2026-08-01 07:17:13 | INFO     | app.main | GET /api/auth/me -> 200 (43.8ms)
+2026-08-01 07:17:13 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:17:13 | INFO     | app.main | GET /api/projects/ -> 200 (33.5ms)
+2026-08-01 07:17:13 | INFO     | app.main | GET /api/auth/me -> 200 (11.3ms)
+2026-08-01 07:17:13 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 07:17:13 | INFO     | app.main | GET /api/projects/ -> 200 (8.4ms)
+2026-08-01 07:17:15 | INFO     | app.main | GET /api/projects/1 -> 200 (5.8ms)
+2026-08-01 07:17:15 | INFO     | app.main | GET /api/projects/1 -> 200 (5.4ms)
+2026-08-01 07:20:13 | INFO     | app.main | GET /api/projects/1 -> 200 (7.8ms)
+2026-08-01 07:20:13 | INFO     | app.main | GET /api/projects/1 -> 200 (5.3ms)
+2026-08-01 07:20:20 | INFO     | app.main | GET /api/projects/1 -> 200 (4.6ms)
+2026-08-01 07:20:20 | INFO     | app.main | GET /api/projects/1 -> 200 (5.0ms)
+2026-08-01 07:20:34 | INFO     | app.routes.ai_features | Generating Gantt for project id=1
+2026-08-01 07:20:34 | INFO     | app.ai_service | Building Gantt schedule from WBS (5 top-level items)
+2026-08-01 07:20:34 | INFO     | app.main | POST /api/ai/gantt/1 -> 200 (33.5ms)
+2026-08-01 07:20:34 | INFO     | app.main | GET /api/projects/1 -> 200 (3.5ms)
+2026-08-01 07:22:05 | INFO     | app.routes.ai_features | Generating Gantt for project id=1
+2026-08-01 07:22:05 | INFO     | app.ai_service | Building Gantt schedule from WBS (5 top-level items)
+2026-08-01 07:22:05 | INFO     | app.main | POST /api/ai/gantt/1 -> 200 (7.4ms)
+2026-08-01 07:22:05 | INFO     | app.main | GET /api/projects/1 -> 200 (4.8ms)
+2026-08-01 07:25:56 | INFO     | app.main | GET /api/projects/1 -> 200 (6.7ms)
+2026-08-01 07:25:56 | INFO     | app.main | GET /api/projects/1 -> 200 (5.7ms)
+2026-08-01 07:26:02 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:26:02 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:26:02 | INFO     | app.main | Startup complete
+2026-08-01 07:26:11 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 07:26:11 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 07:26:11 | INFO     | app.main | Startup complete
+2026-08-01 07:26:48 | INFO     | app.routes.ai_features | Optimizing resources for project id=1
+2026-08-01 07:26:48 | INFO     | app.ai_service | Using mock AI response for feature=resources
+2026-08-01 07:26:48 | INFO     | app.main | POST /api/ai/resources/1 -> 200 (48.8ms)
+2026-08-01 07:26:48 | INFO     | app.main | GET /api/projects/1 -> 200 (5.5ms)
+2026-08-01 07:27:58 | INFO     | app.routes.ai_features | Analyzing quality for project id=1
+2026-08-01 07:27:58 | INFO     | app.ai_service | Using mock AI response for feature=quality
+2026-08-01 07:27:58 | INFO     | app.main | POST /api/ai/quality/1 -> 200 (9.4ms)
+2026-08-01 07:27:58 | INFO     | app.main | GET /api/projects/1 -> 200 (5.2ms)
+2026-08-01 07:28:02 | INFO     | app.routes.ai_features | Predicting maintenance for project id=1
+2026-08-01 07:28:02 | INFO     | app.ai_service | Using mock AI response for feature=maintenance
+2026-08-01 07:28:02 | INFO     | app.main | POST /api/ai/maintenance/1 -> 200 (6.2ms)
+2026-08-01 07:28:02 | INFO     | app.main | GET /api/projects/1 -> 200 (4.4ms)
+2026-08-01 07:28:07 | INFO     | app.routes.ai_features | Generating KPIs for project id=1
+2026-08-01 07:28:07 | INFO     | app.ai_service | Using mock AI response for feature=kpis
+2026-08-01 07:28:07 | INFO     | app.main | POST /api/ai/kpis/1 -> 200 (6.8ms)
+2026-08-01 07:28:07 | INFO     | app.main | GET /api/projects/1 -> 200 (3.9ms)
+2026-08-01 07:28:09 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (9.4ms)
+2026-08-01 07:28:09 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (5.2ms)
+2026-08-01 07:34:20 | INFO     | app.main | GET /api/auth/me -> 200 (7.2ms)
+2026-08-01 07:34:20 | INFO     | app.main | GET /api/auth/me -> 200 (4.9ms)
+2026-08-01 07:34:20 | INFO     | app.main | GET /api/projects/1 -> 200 (7.1ms)
+2026-08-01 07:34:20 | INFO     | app.main | GET /api/projects/1 -> 200 (6.7ms)
+2026-08-01 07:34:35 | INFO     | app.main | GET /api/auth/me -> 200 (7.0ms)
+2026-08-01 07:34:35 | INFO     | app.main | GET /api/projects/1 -> 200 (10.7ms)
+2026-08-01 07:34:35 | INFO     | app.main | GET /api/auth/me -> 200 (6.2ms)
+2026-08-01 07:34:35 | INFO     | app.main | GET /api/projects/1 -> 200 (6.1ms)
+2026-08-01 07:34:43 | INFO     | app.main | GET /api/auth/me -> 200 (7.6ms)
+2026-08-01 07:34:43 | INFO     | app.main | GET /api/projects/1 -> 200 (8.8ms)
+2026-08-01 07:34:43 | INFO     | app.main | GET /api/auth/me -> 200 (10.8ms)
+2026-08-01 07:34:43 | INFO     | app.main | GET /api/projects/1 -> 200 (10.7ms)
+2026-08-01 07:35:47 | INFO     | app.main | GET /api/auth/me -> 200 (7.9ms)
+2026-08-01 07:35:47 | INFO     | app.main | GET /api/projects/1 -> 200 (9.8ms)
+2026-08-01 07:35:47 | INFO     | app.main | GET /api/auth/me -> 200 (7.0ms)
+2026-08-01 07:35:47 | INFO     | app.main | GET /api/projects/1 -> 200 (8.3ms)
+2026-08-01 07:38:19 | INFO     | app.main | GET /api/auth/me -> 200 (13.5ms)
+2026-08-01 07:38:19 | INFO     | app.main | GET /api/projects/1 -> 200 (19.8ms)
+2026-08-01 07:38:19 | INFO     | app.main | GET /api/auth/me -> 200 (16.2ms)
+2026-08-01 07:38:19 | INFO     | app.main | GET /api/projects/1 -> 200 (14.4ms)
+2026-08-01 07:39:36 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (11.7ms)
+2026-08-01 07:39:36 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (6.0ms)
+2026-08-01 07:39:53 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (6.6ms)
+2026-08-01 07:39:53 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (5.7ms)
+2026-08-01 07:40:06 | INFO     | app.main | POST /api/ai/chat -> 200 (17.0ms)
+2026-08-01 10:43:47 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 10:43:47 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 10:43:47 | INFO     | app.main | Startup complete
+2026-08-01 10:44:16 | INFO     | app.main | GET /api/auth/me -> 200 (60.0ms)
+2026-08-01 10:44:17 | INFO     | app.main | GET /api/auth/me -> 200 (28.2ms)
+2026-08-01 10:44:17 | INFO     | app.main | GET /api/projects/1 -> 200 (39.8ms)
+2026-08-01 10:44:17 | INFO     | app.main | GET /api/projects/1 -> 200 (9.1ms)
+2026-08-01 12:18:47 | INFO     | app.main | GET /api/health -> 200 (30.3ms)
+2026-08-01 12:31:45 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-01 12:31:45 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-01 12:31:45 | INFO     | app.main | Startup complete
+2026-08-01 12:32:07 | INFO     | app.main | GET /api/auth/me -> 200 (90.3ms)
+2026-08-01 12:32:07 | INFO     | app.main | GET /api/projects/1 -> 200 (84.2ms)
+2026-08-01 12:32:07 | INFO     | app.main | GET /api/auth/me -> 200 (15.1ms)
+2026-08-01 12:32:07 | INFO     | app.main | GET /api/projects/1 -> 200 (12.1ms)
+2026-08-01 12:32:49 | INFO     | app.main | POST /api/auth/login -> 200 (398.0ms)
+2026-08-01 12:32:50 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 12:32:50 | INFO     | app.main | GET /api/projects/ -> 200 (15.8ms)
+2026-08-01 12:32:50 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-01 12:32:50 | INFO     | app.main | GET /api/projects/ -> 200 (13.7ms)
+2026-08-01 12:34:24 | INFO     | app.main | GET /api/projects/1 -> 200 (11.5ms)
+2026-08-01 12:34:24 | INFO     | app.main | GET /api/projects/1 -> 200 (11.5ms)
+2026-08-02 19:08:52 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-02 19:08:52 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-02 19:08:52 | INFO     | app.main | Startup complete
+2026-08-02 19:09:29 | INFO     | app.main | GET /api/auth/me -> 401 (44.3ms)
+2026-08-02 19:09:29 | INFO     | app.main | GET /api/auth/me -> 401 (3.7ms)
+2026-08-02 19:09:29 | INFO     | app.main | GET /api/projects/ -> 401 (43.3ms)
+2026-08-02 19:09:29 | INFO     | app.main | GET /api/projects/ -> 401 (5.3ms)
+2026-08-02 19:09:56 | INFO     | app.main | POST /api/auth/login -> 200 (452.2ms)
+2026-08-02 19:09:57 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-02 19:09:57 | INFO     | app.main | GET /api/projects/ -> 200 (15.2ms)
+2026-08-02 19:09:57 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-02 19:09:57 | INFO     | app.main | GET /api/projects/ -> 200 (9.0ms)
+2026-08-02 19:10:17 | INFO     | app.main | GET /api/projects/1 -> 200 (18.1ms)
+2026-08-02 19:10:17 | INFO     | app.main | GET /api/projects/1 -> 200 (12.5ms)
+2026-08-02 19:14:06 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (43.5ms)
+2026-08-02 19:14:06 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (19.9ms)
+2026-08-03 18:19:47 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-03 18:19:47 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-03 18:19:47 | INFO     | app.main | Startup complete
+2026-08-24 10:25:16 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 10:25:16 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 10:25:16 | INFO     | app.main | Startup complete
+2026-08-24 10:25:33 | INFO     | app.main | GET /api/auth/me -> 401 (41.8ms)
+2026-08-24 10:25:33 | INFO     | app.main | GET /api/auth/me -> 401 (45.5ms)
+2026-08-24 10:25:33 | INFO     | app.main | GET /api/projects/ -> 401 (41.4ms)
+2026-08-24 10:25:33 | INFO     | app.main | GET /api/projects/ -> 401 (4.4ms)
+2026-08-24 10:26:36 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 10:26:36 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 10:26:36 | INFO     | app.main | Startup complete
+2026-08-24 10:27:39 | INFO     | app.main | POST /api/auth/login -> 200 (474.4ms)
+2026-08-24 10:27:39 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 10:27:39 | INFO     | app.main | GET /api/projects/ -> 200 (47.4ms)
+2026-08-24 10:27:40 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 10:27:40 | INFO     | app.main | GET /api/projects/ -> 200 (13.3ms)
+2026-08-24 10:27:48 | INFO     | app.main | GET /api/projects/1 -> 200 (29.5ms)
+2026-08-24 10:27:49 | INFO     | app.main | GET /api/projects/1 -> 200 (18.7ms)
+2026-08-24 10:28:13 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (47.3ms)
+2026-08-24 10:28:13 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (12.1ms)
+2026-08-24 10:30:46 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 10:30:46 | INFO     | app.main | GET /api/projects/ -> 200 (14.8ms)
+2026-08-24 10:30:46 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 10:30:46 | INFO     | app.main | GET /api/projects/ -> 200 (12.7ms)
+2026-08-24 10:31:01 | INFO     | app.main | GET /api/projects/1 -> 200 (23.6ms)
+2026-08-24 10:31:01 | INFO     | app.main | GET /api/projects/1 -> 200 (13.6ms)
+2026-08-24 10:32:06 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 10:32:06 | INFO     | app.main | GET /api/projects/ -> 200 (18.2ms)
+2026-08-24 10:32:07 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 10:32:07 | INFO     | app.main | GET /api/projects/ -> 200 (10.3ms)
+2026-08-24 10:32:46 | INFO     | app.main | GET /api/projects/1 -> 200 (16.2ms)
+2026-08-24 10:32:46 | INFO     | app.main | GET /api/projects/1 -> 200 (8.9ms)
+2026-08-24 16:52:20 | INFO     | app.main | GET /api/auth/me -> 200 (23.6ms)
+2026-08-24 16:52:20 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 16:52:20 | INFO     | app.main | GET /api/projects/ -> 200 (48.1ms)
+2026-08-24 16:52:20 | INFO     | app.main | GET /api/auth/me -> 200 (24.6ms)
+2026-08-24 16:52:20 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 16:52:20 | INFO     | app.main | GET /api/projects/ -> 200 (32.6ms)
+2026-08-24 16:52:47 | INFO     | app.main | POST /api/auth/login -> 200 (363.2ms)
+2026-08-24 16:52:47 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 16:52:47 | INFO     | app.main | GET /api/projects/ -> 200 (12.0ms)
+2026-08-24 16:52:47 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 16:52:47 | INFO     | app.main | GET /api/projects/ -> 200 (12.5ms)
+2026-08-24 16:52:59 | INFO     | app.main | GET /api/projects/3 -> 200 (13.4ms)
+2026-08-24 16:52:59 | INFO     | app.main | GET /api/projects/3 -> 200 (27.6ms)
+2026-08-24 16:55:21 | INFO     | app.main | GET /api/ai/chat/3/history -> 200 (11.9ms)
+2026-08-24 16:55:21 | INFO     | app.main | GET /api/ai/chat/3/history -> 200 (10.3ms)
+2026-08-24 16:56:23 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 16:56:23 | INFO     | app.main | GET /api/projects/ -> 200 (10.7ms)
+2026-08-24 16:56:23 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 16:56:23 | INFO     | app.main | GET /api/projects/ -> 200 (6.9ms)
+2026-08-24 16:56:25 | INFO     | app.main | GET /api/projects/1 -> 200 (13.1ms)
+2026-08-24 16:56:25 | INFO     | app.main | GET /api/projects/1 -> 200 (12.6ms)
+2026-08-24 17:07:47 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 17:07:47 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 17:07:47 | INFO     | app.main | Startup complete
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/auth/me -> 200 (84.8ms)
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/projects/1 -> 200 (103.6ms)
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/auth/me -> 200 (112.2ms)
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/projects/1 -> 200 (119.5ms)
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/projects/1 -> 200 (121.9ms)
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/projects/1 -> 200 (125.6ms)
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/projects/1 -> 200 (10.0ms)
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/projects/1 -> 200 (17.1ms)
+2026-08-24 17:07:47 | INFO     | app.main | GET /api/projects/1 -> 200 (15.3ms)
+2026-08-24 17:08:11 | INFO     | app.main | GET /api/auth/me -> 200 (15.3ms)
+2026-08-24 17:08:11 | INFO     | app.main | GET /api/projects/1 -> 200 (11.8ms)
+2026-08-24 17:08:11 | INFO     | app.main | GET /api/auth/me -> 200 (34.8ms)
+2026-08-24 17:08:11 | INFO     | app.main | GET /api/projects/1 -> 200 (32.8ms)
+2026-08-24 17:08:15 | INFO     | app.report_generator | Generating PPTX report for project id=1 name='Production Line Upgrade - Line #3'
+2026-08-24 17:08:16 | INFO     | app.report_generator | PPTX report generated for project id=1 (36 slides)
+2026-08-24 17:08:16 | INFO     | app.routes.projects | Serving PPTX report for project id=1 user=pm_user
+2026-08-24 17:08:16 | INFO     | app.main | GET /api/projects/1/report/pptx -> 200 (202.8ms)
+2026-08-24 17:17:59 | INFO     | app.main | POST /api/auth/login -> 200 (417.5ms)
+2026-08-24 17:17:59 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 17:17:59 | INFO     | app.main | GET /api/projects/ -> 200 (29.4ms)
+2026-08-24 17:17:59 | INFO     | app.routes.projects | Listed 3 projects for user=pm_user
+2026-08-24 17:17:59 | INFO     | app.main | GET /api/projects/ -> 200 (9.6ms)
+2026-08-24 17:18:12 | INFO     | app.main | GET /api/projects/1 -> 200 (23.0ms)
+2026-08-24 17:18:13 | INFO     | app.main | GET /api/projects/1 -> 200 (14.7ms)
+2026-08-24 17:35:45 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 17:35:45 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 17:35:45 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-24 17:35:45 | INFO     | app.main | Startup complete
+2026-08-24 17:48:44 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:48:44 | ERROR    | app.main | Unhandled error on GET /api/projects/: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+Traceback (most recent call last):
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\app\main.py", line 35, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 727, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 324, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+2026-08-24 17:48:44 | INFO     | app.main | GET /api/auth/me -> 200 (64.7ms)
+2026-08-24 17:48:44 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:48:44 | INFO     | app.main | GET /api/auth/me -> 200 (29.4ms)
+2026-08-24 17:48:44 | ERROR    | app.main | Unhandled error on GET /api/projects/: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+Traceback (most recent call last):
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\app\main.py", line 35, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 727, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 324, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+2026-08-24 17:48:44 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:48:45 | ERROR    | app.main | Unhandled error on GET /api/projects/: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+Traceback (most recent call last):
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\app\main.py", line 35, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 727, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 324, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+2026-08-24 17:49:51 | INFO     | app.main | GET /api/auth/me -> 200 (20.6ms)
+2026-08-24 17:49:51 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:49:51 | ERROR    | app.main | Unhandled error on GET /api/projects/: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+Traceback (most recent call last):
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\app\main.py", line 35, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 727, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 324, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+2026-08-24 17:49:51 | INFO     | app.main | GET /api/auth/me -> 200 (16.7ms)
+2026-08-24 17:49:51 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:49:51 | ERROR    | app.main | Unhandled error on GET /api/projects/: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+Traceback (most recent call last):
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\app\main.py", line 35, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 727, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 324, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+2026-08-24 17:50:19 | INFO     | app.main | POST /api/auth/login -> 200 (469.5ms)
+2026-08-24 17:50:19 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:50:19 | ERROR    | app.main | Unhandled error on GET /api/projects/: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+Traceback (most recent call last):
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\app\main.py", line 35, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 727, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 324, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+2026-08-24 17:50:19 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:50:20 | ERROR    | app.main | Unhandled error on GET /api/projects/: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+Traceback (most recent call last):
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\app\main.py", line 35, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1780, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 2789, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1800, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 1279, in handle
+    await app(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 727, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\curser\aiAgent\backend\venv\Lib\site-packages\fastapi\routing.py", line 324, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'list_type', 'loc': ('response', 3, 'inventory'), 'msg': 'Input should be a valid list', 'input': {'materials': [{'name': 'WiFi 6 Chipset (Dual-band)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'PCB Board (4-layer)', 'required': 100, 'available': 0, 'unit': 'boards', 'status': 'Pending EBOM'}, {'name': 'Router Enclosure (ABS)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending CAD'}, {'name': 'Dual-band Antenna Assembly', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Gigabit LAN Port (x4)', 'required': 200, 'available': 0, 'unit': 'connectors', 'status': 'Pending EBOM'}, {'name': 'VoIP Port Module (x2)', 'required': 100, 'available': 0, 'unit': 'modules', 'status': 'Pending EBOM'}, {'name': 'Power Supply Unit (12V/2A)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}, {'name': 'Flash Memory (Firmware)', 'required': 50, 'available': 0, 'unit': 'units', 'status': 'Pending EBOM'}]}}
+  {'type': 'list_type', 'loc': ('response', 3, 'maintenance'), 'msg': 'Input should be a valid list', 'input': {'machines': [{'name': 'SMT Pick-and-Place Line', 'health_score': 92, 'failure_probability': 0.08, 'predicted_failure_date': '2027-02-15', 'recommendation': 'Schedule preventive maintenance before prototype build'}, {'name': 'ICT / Functional Test Bench', 'health_score': 88, 'failure_probability': 0.12, 'predicted_failure_date': '2027-03-01', 'recommendation': 'Calibrate test fixtures before RFB validation'}, {'name': 'RF Chamber (WiFi 6 Testing)', 'health_score': 95, 'failure_probability': 0.05, 'predicted_failure_date': '2027-06-01', 'recommendation': 'Book RF chamber for certification pre-tests in parallel with EBOM'}]}}
+
+  File "C:\curser\aiAgent\backend\app\routes\projects.py", line 18, in list_projects
+    GET /api/projects/
+2026-08-24 17:50:33 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 17:50:33 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 17:50:33 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-24 17:50:33 | INFO     | app.main | Startup complete
+2026-08-24 17:50:39 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 17:50:39 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 17:50:39 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-24 17:50:39 | INFO     | app.main | Startup complete
+2026-08-24 17:50:54 | INFO     | app.main | GET /api/auth/me -> 200 (63.2ms)
+2026-08-24 17:50:54 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:50:54 | INFO     | app.main | GET /api/auth/me -> 200 (41.7ms)
+2026-08-24 17:50:54 | INFO     | app.main | GET /api/projects/ -> 200 (96.0ms)
+2026-08-24 17:50:54 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:50:54 | INFO     | app.main | GET /api/projects/ -> 200 (19.7ms)
+2026-08-24 17:50:58 | INFO     | app.main | GET /api/projects/4 -> 200 (21.7ms)
+2026-08-24 17:50:58 | INFO     | app.main | GET /api/projects/4 -> 200 (16.1ms)
+2026-08-24 17:52:44 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (38.5ms)
+2026-08-24 17:52:44 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (6.7ms)
+2026-08-24 17:53:07 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:53:07 | INFO     | app.main | GET /api/projects/ -> 200 (14.6ms)
+2026-08-24 17:53:07 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:53:07 | INFO     | app.main | GET /api/projects/ -> 200 (13.8ms)
+2026-08-24 17:53:09 | INFO     | app.main | GET /api/projects/1 -> 200 (18.3ms)
+2026-08-24 17:53:09 | INFO     | app.main | GET /api/projects/1 -> 200 (13.5ms)
+2026-08-24 17:53:22 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:53:22 | INFO     | app.main | GET /api/projects/ -> 200 (18.6ms)
+2026-08-24 17:53:22 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 17:53:22 | INFO     | app.main | GET /api/projects/ -> 200 (16.8ms)
+2026-08-24 17:53:24 | INFO     | app.main | GET /api/projects/4 -> 200 (13.8ms)
+2026-08-24 17:53:24 | INFO     | app.main | GET /api/projects/4 -> 200 (9.0ms)
+2026-08-24 17:53:27 | INFO     | app.routes.ai_features | Planning inventory for project id=4
+2026-08-24 17:53:27 | INFO     | app.ai_service | Using mock AI response for feature=inventory
+2026-08-24 17:53:27 | INFO     | app.main | POST /api/ai/inventory/4 -> 200 (44.0ms)
+2026-08-24 17:53:27 | INFO     | app.main | GET /api/projects/4 -> 200 (8.8ms)
+2026-08-24 17:53:40 | INFO     | app.routes.ai_features | Analyzing quality for project id=4
+2026-08-24 17:53:40 | INFO     | app.ai_service | Using mock AI response for feature=quality
+2026-08-24 17:53:40 | INFO     | app.main | POST /api/ai/quality/4 -> 200 (158.7ms)
+2026-08-24 17:53:41 | INFO     | app.main | GET /api/projects/4 -> 200 (18.4ms)
+2026-08-24 17:57:36 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 17:57:36 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 17:57:36 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-24 17:57:36 | INFO     | app.main | Startup complete
+2026-08-24 17:57:42 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 17:57:42 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 17:57:42 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-24 17:57:42 | INFO     | app.main | Startup complete
+2026-08-24 17:58:30 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 17:58:30 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 17:58:30 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-24 17:58:30 | INFO     | app.main | Startup complete
+2026-08-24 18:00:19 | INFO     | app.main | GET /api/auth/me -> 200 (267.5ms)
+2026-08-24 18:00:19 | INFO     | app.main | GET /api/projects/4 -> 200 (240.8ms)
+2026-08-24 18:00:19 | INFO     | app.main | GET /api/auth/me -> 200 (25.3ms)
+2026-08-24 18:00:19 | INFO     | app.main | GET /api/projects/4 -> 200 (25.1ms)
+2026-08-24 18:00:36 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-24 18:00:36 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-24 18:00:36 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-24 18:00:36 | INFO     | app.main | Startup complete
+2026-08-24 18:00:57 | INFO     | app.main | GET /api/projects/4 -> 200 (70.2ms)
+2026-08-24 18:00:57 | INFO     | app.main | GET /api/projects/4 -> 200 (35.5ms)
+2026-08-24 18:00:58 | INFO     | app.main | GET /api/auth/me -> 200 (39.0ms)
+2026-08-24 18:00:58 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 18:00:58 | INFO     | app.main | GET /api/projects/ -> 200 (66.8ms)
+2026-08-24 18:00:58 | INFO     | app.main | GET /api/auth/me -> 200 (18.2ms)
+2026-08-24 18:00:58 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-24 18:00:58 | INFO     | app.main | GET /api/projects/ -> 200 (14.7ms)
+2026-08-24 18:01:00 | INFO     | app.main | GET /api/projects/1 -> 200 (9.6ms)
+2026-08-24 18:01:00 | INFO     | app.main | GET /api/projects/1 -> 200 (15.2ms)
+2026-08-24 18:02:16 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (61.5ms)
+2026-08-24 18:02:16 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (15.2ms)
+2026-08-29 12:22:28 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 12:22:28 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 12:22:28 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 12:22:28 | INFO     | app.main | Startup complete
+2026-08-29 12:22:46 | INFO     | app.main | GET /api/auth/me -> 401 (47.1ms)
+2026-08-29 12:22:46 | INFO     | app.main | GET /api/auth/me -> 401 (61.0ms)
+2026-08-29 12:22:46 | INFO     | app.main | GET /api/projects/ -> 401 (62.3ms)
+2026-08-29 12:22:46 | INFO     | app.main | GET /api/projects/ -> 401 (7.5ms)
+2026-08-29 12:23:08 | INFO     | app.main | POST /api/auth/login -> 200 (371.3ms)
+2026-08-29 12:23:08 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:23:08 | INFO     | app.main | GET /api/projects/ -> 200 (16.8ms)
+2026-08-29 12:23:08 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:23:08 | INFO     | app.main | GET /api/projects/ -> 200 (13.3ms)
+2026-08-29 12:23:12 | INFO     | app.main | GET /api/projects/1 -> 200 (14.9ms)
+2026-08-29 12:23:12 | INFO     | app.main | GET /api/projects/1 -> 200 (10.5ms)
+2026-08-29 12:24:47 | INFO     | app.routes.projects | Updated project id=1 for user=pm_user
+2026-08-29 12:24:47 | INFO     | app.main | PUT /api/projects/1 -> 200 (54.3ms)
+2026-08-29 12:24:54 | INFO     | app.routes.projects | Updated project id=1 for user=pm_user
+2026-08-29 12:24:54 | INFO     | app.main | PUT /api/projects/1 -> 200 (20.3ms)
+2026-08-29 12:25:08 | INFO     | app.routes.ai_features | Generating charter for project id=1 user=pm_user
+2026-08-29 12:25:08 | INFO     | app.ai_service | Using mock AI response for feature=charter
+2026-08-29 12:25:08 | INFO     | app.main | POST /api/ai/charter/1 -> 200 (59.2ms)
+2026-08-29 12:25:09 | INFO     | app.main | GET /api/projects/1 -> 200 (7.5ms)
+2026-08-29 12:25:40 | INFO     | app.routes.ai_features | Generating Gantt for project id=1
+2026-08-29 12:25:40 | INFO     | app.ai_service | Building Gantt schedule from WBS (5 top-level items)
+2026-08-29 12:25:40 | INFO     | app.main | POST /api/ai/gantt/1 -> 200 (68.4ms)
+2026-08-29 12:25:40 | INFO     | app.main | GET /api/projects/1 -> 200 (9.4ms)
+2026-08-29 12:26:13 | INFO     | app.routes.ai_features | Optimizing resources for project id=1
+2026-08-29 12:26:13 | INFO     | app.ai_service | Using mock AI response for feature=resources
+2026-08-29 12:26:13 | INFO     | app.main | POST /api/ai/resources/1 -> 200 (19.8ms)
+2026-08-29 12:26:13 | INFO     | app.main | GET /api/projects/1 -> 200 (9.2ms)
+2026-08-29 12:26:26 | INFO     | app.routes.ai_features | Planning inventory for project id=1
+2026-08-29 12:26:26 | INFO     | app.ai_service | Using mock AI response for feature=inventory
+2026-08-29 12:26:26 | INFO     | app.main | POST /api/ai/inventory/1 -> 200 (15.8ms)
+2026-08-29 12:26:26 | INFO     | app.main | GET /api/projects/1 -> 200 (8.4ms)
+2026-08-29 12:26:27 | INFO     | app.routes.ai_features | Planning inventory for project id=1
+2026-08-29 12:26:27 | INFO     | app.ai_service | Using mock AI response for feature=inventory
+2026-08-29 12:26:27 | INFO     | app.main | POST /api/ai/inventory/1 -> 200 (22.4ms)
+2026-08-29 12:26:28 | INFO     | app.main | GET /api/projects/1 -> 200 (17.8ms)
+2026-08-29 12:26:28 | INFO     | app.routes.ai_features | Planning inventory for project id=1
+2026-08-29 12:26:28 | INFO     | app.ai_service | Using mock AI response for feature=inventory
+2026-08-29 12:26:28 | INFO     | app.main | POST /api/ai/inventory/1 -> 200 (26.7ms)
+2026-08-29 12:26:29 | INFO     | app.main | GET /api/projects/1 -> 200 (12.8ms)
+2026-08-29 12:26:33 | INFO     | app.routes.ai_features | Analyzing risks for project id=1
+2026-08-29 12:26:33 | INFO     | app.ai_service | Using mock AI response for feature=risks
+2026-08-29 12:26:33 | INFO     | app.main | POST /api/ai/risks/1 -> 200 (15.7ms)
+2026-08-29 12:26:34 | INFO     | app.main | GET /api/projects/1 -> 200 (9.2ms)
+2026-08-29 12:26:37 | INFO     | app.routes.ai_features | Analyzing quality for project id=1
+2026-08-29 12:26:37 | INFO     | app.ai_service | Using mock AI response for feature=quality
+2026-08-29 12:26:37 | INFO     | app.main | POST /api/ai/quality/1 -> 200 (14.5ms)
+2026-08-29 12:26:37 | INFO     | app.main | GET /api/projects/1 -> 200 (8.6ms)
+2026-08-29 12:26:39 | INFO     | app.routes.ai_features | Analyzing quality for project id=1
+2026-08-29 12:26:39 | INFO     | app.ai_service | Using mock AI response for feature=quality
+2026-08-29 12:26:39 | INFO     | app.main | POST /api/ai/quality/1 -> 200 (26.3ms)
+2026-08-29 12:26:39 | INFO     | app.main | GET /api/projects/1 -> 200 (11.9ms)
+2026-08-29 12:26:39 | INFO     | app.routes.ai_features | Analyzing quality for project id=1
+2026-08-29 12:26:39 | INFO     | app.ai_service | Using mock AI response for feature=quality
+2026-08-29 12:26:39 | INFO     | app.main | POST /api/ai/quality/1 -> 200 (17.9ms)
+2026-08-29 12:26:40 | INFO     | app.main | GET /api/projects/1 -> 200 (8.1ms)
+2026-08-29 12:26:42 | INFO     | app.routes.ai_features | Predicting maintenance for project id=1
+2026-08-29 12:26:42 | INFO     | app.ai_service | Using mock AI response for feature=maintenance
+2026-08-29 12:26:42 | INFO     | app.main | POST /api/ai/maintenance/1 -> 200 (14.6ms)
+2026-08-29 12:26:43 | INFO     | app.main | GET /api/projects/1 -> 200 (10.7ms)
+2026-08-29 12:26:44 | INFO     | app.routes.ai_features | Predicting maintenance for project id=1
+2026-08-29 12:26:44 | INFO     | app.ai_service | Using mock AI response for feature=maintenance
+2026-08-29 12:26:44 | INFO     | app.main | POST /api/ai/maintenance/1 -> 200 (15.7ms)
+2026-08-29 12:26:44 | INFO     | app.main | GET /api/projects/1 -> 200 (7.2ms)
+2026-08-29 12:26:49 | INFO     | app.routes.ai_features | Generating KPIs for project id=1
+2026-08-29 12:26:49 | INFO     | app.ai_service | Using mock AI response for feature=kpis
+2026-08-29 12:26:49 | INFO     | app.main | POST /api/ai/kpis/1 -> 200 (14.0ms)
+2026-08-29 12:26:49 | INFO     | app.main | GET /api/projects/1 -> 200 (5.8ms)
+2026-08-29 12:26:50 | INFO     | app.routes.ai_features | Generating KPIs for project id=1
+2026-08-29 12:26:50 | INFO     | app.ai_service | Using mock AI response for feature=kpis
+2026-08-29 12:26:50 | INFO     | app.main | POST /api/ai/kpis/1 -> 200 (13.8ms)
+2026-08-29 12:26:50 | INFO     | app.main | GET /api/projects/1 -> 200 (7.4ms)
+2026-08-29 12:27:45 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (17.2ms)
+2026-08-29 12:27:46 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (18.7ms)
+2026-08-29 12:36:18 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 12:36:18 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 12:36:18 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 12:36:18 | INFO     | app.main | Startup complete
+2026-08-29 12:36:23 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 12:36:23 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 12:36:23 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 12:36:23 | INFO     | app.main | Startup complete
+2026-08-29 12:36:29 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 12:36:29 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 12:36:29 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 12:36:29 | INFO     | app.main | Startup complete
+2026-08-29 12:36:34 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 12:36:34 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 12:36:34 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 12:36:34 | INFO     | app.main | Startup complete
+2026-08-29 12:37:25 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 12:37:25 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 12:37:26 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 12:37:26 | INFO     | app.main | Startup complete
+2026-08-29 12:37:38 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 12:37:38 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 12:37:38 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 12:37:38 | INFO     | app.main | Startup complete
+2026-08-29 12:37:48 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 12:37:48 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 12:37:48 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 12:37:48 | INFO     | app.main | Startup complete
+2026-08-29 12:39:23 | INFO     | app.main | GET /api/projects/1 -> 200 (145.4ms)
+2026-08-29 12:39:23 | INFO     | app.main | GET /api/auth/me -> 200 (216.1ms)
+2026-08-29 12:39:23 | INFO     | app.main | GET /api/projects/1 -> 200 (30.2ms)
+2026-08-29 12:39:23 | INFO     | app.main | GET /api/auth/me -> 200 (28.4ms)
+2026-08-29 12:39:34 | INFO     | app.main | GET /api/auth/me -> 200 (29.8ms)
+2026-08-29 12:39:34 | INFO     | app.main | GET /api/projects/1 -> 200 (19.2ms)
+2026-08-29 12:39:34 | INFO     | app.main | GET /api/auth/me -> 200 (19.3ms)
+2026-08-29 12:39:34 | INFO     | app.main | GET /api/projects/1 -> 200 (27.0ms)
+2026-08-29 12:40:47 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:40:47 | INFO     | app.main | GET /api/projects/ -> 200 (20.9ms)
+2026-08-29 12:40:48 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:40:48 | INFO     | app.main | GET /api/projects/ -> 200 (10.7ms)
+2026-08-29 12:44:04 | INFO     | app.main | GET /api/auth/me -> 200 (8.5ms)
+2026-08-29 12:44:04 | INFO     | app.main | GET /api/auth/me -> 200 (16.9ms)
+2026-08-29 12:44:04 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:44:04 | INFO     | app.main | GET /api/projects/ -> 200 (22.7ms)
+2026-08-29 12:44:04 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:44:04 | INFO     | app.main | GET /api/projects/ -> 200 (8.0ms)
+2026-08-29 12:45:58 | INFO     | app.main | GET /api/auth/me -> 200 (9.1ms)
+2026-08-29 12:45:58 | INFO     | app.main | GET /api/auth/me -> 200 (9.9ms)
+2026-08-29 12:45:58 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:45:58 | INFO     | app.main | GET /api/projects/ -> 200 (17.1ms)
+2026-08-29 12:45:59 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:45:59 | INFO     | app.main | GET /api/projects/ -> 200 (14.8ms)
+2026-08-29 12:46:17 | INFO     | app.main | GET /api/projects/1 -> 200 (15.0ms)
+2026-08-29 12:46:17 | INFO     | app.main | GET /api/projects/1 -> 200 (9.9ms)
+2026-08-29 12:48:04 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:48:04 | INFO     | app.main | GET /api/projects/ -> 200 (15.4ms)
+2026-08-29 12:48:04 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 12:48:04 | INFO     | app.main | GET /api/projects/ -> 200 (13.7ms)
+2026-08-29 12:48:09 | INFO     | app.main | GET /api/projects/4 -> 200 (14.0ms)
+2026-08-29 12:48:09 | INFO     | app.main | GET /api/projects/4 -> 200 (12.7ms)
+2026-08-29 12:51:34 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (82.8ms)
+2026-08-29 12:51:35 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (9.6ms)
+2026-08-29 13:16:16 | INFO     | app.main | GET /api/auth/me -> 200 (18.4ms)
+2026-08-29 13:16:16 | INFO     | app.main | GET /api/auth/me -> 200 (14.5ms)
+2026-08-29 13:16:17 | INFO     | app.main | GET /api/projects/4 -> 200 (28.2ms)
+2026-08-29 13:16:17 | INFO     | app.main | GET /api/projects/4 -> 200 (29.3ms)
+2026-08-29 13:16:18 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (15.8ms)
+2026-08-29 13:16:18 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (16.2ms)
+2026-08-29 13:17:05 | INFO     | app.main | GET /api/auth/me -> 200 (11.1ms)
+2026-08-29 13:17:05 | INFO     | app.main | GET /api/auth/me -> 200 (11.2ms)
+2026-08-29 13:17:06 | INFO     | app.main | GET /api/projects/4 -> 200 (14.3ms)
+2026-08-29 13:17:07 | INFO     | app.main | GET /api/projects/4 -> 200 (13.2ms)
+2026-08-29 13:17:07 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (15.1ms)
+2026-08-29 13:17:07 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (14.7ms)
+2026-08-29 13:17:28 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 13:17:28 | INFO     | app.main | GET /api/projects/ -> 200 (10.1ms)
+2026-08-29 13:17:28 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 13:17:28 | INFO     | app.main | GET /api/projects/ -> 200 (11.4ms)
+2026-08-29 13:17:52 | INFO     | app.main | GET /api/projects/2 -> 200 (4.6ms)
+2026-08-29 13:17:52 | INFO     | app.main | GET /api/projects/2 -> 200 (6.7ms)
+2026-08-29 13:18:18 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 13:18:18 | INFO     | app.main | GET /api/projects/ -> 200 (7.3ms)
+2026-08-29 13:18:18 | INFO     | app.routes.projects | Listed 4 projects for user=pm_user
+2026-08-29 13:18:18 | INFO     | app.main | GET /api/projects/ -> 200 (7.7ms)
+2026-08-29 13:21:06 | INFO     | app.routes.projects | Created project id=5 name='WIFI router SMT line' for user=pm_user
+2026-08-29 13:21:06 | INFO     | app.main | POST /api/projects/ -> 200 (28.3ms)
+2026-08-29 13:21:06 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 13:21:06 | INFO     | app.main | GET /api/projects/ -> 200 (5.5ms)
+2026-08-29 13:21:10 | INFO     | app.main | GET /api/projects/5 -> 200 (6.9ms)
+2026-08-29 13:21:11 | INFO     | app.main | GET /api/projects/5 -> 200 (4.4ms)
+2026-08-29 13:21:18 | INFO     | app.routes.ai_features | Generating charter for project id=5 user=pm_user
+2026-08-29 13:21:18 | INFO     | app.ai_service | Using mock AI response for feature=charter
+2026-08-29 13:21:18 | INFO     | app.main | POST /api/ai/charter/5 -> 200 (16.4ms)
+2026-08-29 13:21:18 | INFO     | app.main | GET /api/projects/5 -> 200 (4.9ms)
+2026-08-29 13:21:37 | INFO     | app.routes.ai_features | Generating WBS for project id=5 user=pm_user
+2026-08-29 13:21:37 | INFO     | app.ai_service | Using mock AI response for feature=wbs
+2026-08-29 13:21:37 | INFO     | app.routes.ai_features | WBS generated successfully for project id=5 (5 items)
+2026-08-29 13:21:37 | INFO     | app.main | POST /api/ai/wbs/5 -> 200 (14.7ms)
+2026-08-29 13:21:37 | INFO     | app.main | GET /api/projects/5 -> 200 (4.6ms)
+2026-08-29 13:21:45 | INFO     | app.routes.ai_features | Generating Gantt for project id=5
+2026-08-29 13:21:45 | INFO     | app.ai_service | Building Gantt schedule from WBS (5 top-level items)
+2026-08-29 13:21:45 | INFO     | app.main | POST /api/ai/gantt/5 -> 200 (36.0ms)
+2026-08-29 13:21:46 | INFO     | app.main | GET /api/projects/5 -> 200 (4.5ms)
+2026-08-29 13:21:55 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 6.2, 'completed_tasks': 1, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 67.2}
+2026-08-29 13:21:55 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (23.0ms)
+2026-08-29 13:22:02 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 7.8, 'completed_tasks': 1, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 67.7}
+2026-08-29 13:22:02 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (15.2ms)
+2026-08-29 13:22:08 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 9.4, 'completed_tasks': 1, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 68.3}
+2026-08-29 13:22:08 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (18.0ms)
+2026-08-29 13:22:14 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 15.6, 'completed_tasks': 2, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 70.5}
+2026-08-29 13:22:14 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (14.3ms)
+2026-08-29 13:22:33 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 15.6, 'completed_tasks': 1, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 70.5}
+2026-08-29 13:22:33 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (22.5ms)
+2026-08-29 13:22:39 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 21.9, 'completed_tasks': 2, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 72.7}
+2026-08-29 13:22:39 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (14.8ms)
+2026-08-29 13:22:47 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 21.9, 'completed_tasks': 1, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 72.7}
+2026-08-29 13:22:47 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (18.7ms)
+2026-08-29 13:22:51 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 21.9, 'completed_tasks': 1, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 72.7}
+2026-08-29 13:22:51 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (14.6ms)
+2026-08-29 13:22:54 | INFO     | app.routes.projects | Updated gantt task on project id=5: {'overall_progress': 23.4, 'completed_tasks': 1, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 73.2}
+2026-08-29 13:22:54 | INFO     | app.main | PATCH /api/projects/5/gantt/task -> 200 (18.8ms)
+2026-08-29 13:24:01 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 13:24:01 | INFO     | app.main | GET /api/projects/ -> 200 (7.1ms)
+2026-08-29 13:24:01 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 13:24:01 | INFO     | app.main | GET /api/projects/ -> 200 (7.0ms)
+2026-08-29 13:24:38 | INFO     | app.main | POST /api/auth/login -> 200 (278.7ms)
+2026-08-29 13:24:38 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 13:24:38 | INFO     | app.main | GET /api/projects/ -> 200 (8.1ms)
+2026-08-29 13:24:39 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 13:24:39 | INFO     | app.main | GET /api/projects/ -> 200 (6.6ms)
+2026-08-29 13:25:44 | INFO     | app.routes.projects | Created project id=6 name='Mobile phone manufacturing setup' for user=pm_user
+2026-08-29 13:25:44 | INFO     | app.main | POST /api/projects/ -> 200 (12.9ms)
+2026-08-29 13:25:44 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 13:25:44 | INFO     | app.main | GET /api/projects/ -> 200 (6.7ms)
+2026-08-29 13:25:47 | INFO     | app.main | GET /api/projects/6 -> 200 (6.6ms)
+2026-08-29 13:25:48 | INFO     | app.main | GET /api/projects/6 -> 200 (4.9ms)
+2026-08-29 13:26:04 | INFO     | app.routes.ai_features | Generating charter for project id=6 user=pm_user
+2026-08-29 13:26:04 | INFO     | app.ai_service | Using mock AI response for feature=charter
+2026-08-29 13:26:04 | INFO     | app.main | POST /api/ai/charter/6 -> 200 (10.8ms)
+2026-08-29 13:26:05 | INFO     | app.main | GET /api/projects/6 -> 200 (4.8ms)
+2026-08-29 13:27:03 | INFO     | app.routes.ai_features | Generating WBS for project id=6 user=pm_user
+2026-08-29 13:27:03 | INFO     | app.ai_service | Using mock AI response for feature=wbs
+2026-08-29 13:27:03 | INFO     | app.routes.ai_features | WBS generated successfully for project id=6 (5 items)
+2026-08-29 13:27:03 | INFO     | app.main | POST /api/ai/wbs/6 -> 200 (12.3ms)
+2026-08-29 13:27:03 | INFO     | app.main | GET /api/projects/6 -> 200 (4.4ms)
+2026-08-29 13:28:17 | INFO     | app.routes.ai_features | Generating Gantt for project id=6
+2026-08-29 13:28:17 | INFO     | app.ai_service | Building Gantt schedule from WBS (5 top-level items)
+2026-08-29 13:28:17 | INFO     | app.main | POST /api/ai/gantt/6 -> 200 (11.2ms)
+2026-08-29 13:28:17 | INFO     | app.main | GET /api/projects/6 -> 200 (4.6ms)
+2026-08-29 13:29:26 | INFO     | app.routes.ai_features | Optimizing resources for project id=6
+2026-08-29 13:29:26 | INFO     | app.ai_service | Using mock AI response for feature=resources
+2026-08-29 13:29:26 | INFO     | app.main | POST /api/ai/resources/6 -> 200 (21.2ms)
+2026-08-29 13:29:26 | INFO     | app.main | GET /api/projects/6 -> 200 (4.5ms)
+2026-08-29 13:29:49 | INFO     | app.routes.ai_features | Analyzing budget for project id=6
+2026-08-29 13:29:49 | INFO     | app.ai_service | Using mock AI response for feature=budget
+2026-08-29 13:29:49 | INFO     | app.main | POST /api/ai/budget/6 -> 200 (16.0ms)
+2026-08-29 13:29:49 | INFO     | app.main | GET /api/projects/6 -> 200 (4.8ms)
+2026-08-29 13:30:37 | INFO     | app.routes.projects | Updated gantt task on project id=6: {'overall_progress': 6.2, 'completed_tasks': 1, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 67.2}
+2026-08-29 13:30:37 | INFO     | app.main | PATCH /api/projects/6/gantt/task -> 200 (17.4ms)
+2026-08-29 13:30:40 | INFO     | app.routes.projects | Updated gantt task on project id=6: {'overall_progress': 12.5, 'completed_tasks': 2, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 69.4}
+2026-08-29 13:30:40 | INFO     | app.main | PATCH /api/projects/6/gantt/task -> 200 (26.7ms)
+2026-08-29 13:30:45 | INFO     | app.routes.projects | Updated gantt task on project id=6: {'overall_progress': 18.8, 'completed_tasks': 3, 'total_tasks': 16, 'delayed_tasks': 0, 'health_score': 71.6}
+2026-08-29 13:30:45 | INFO     | app.main | PATCH /api/projects/6/gantt/task -> 200 (15.1ms)
+2026-08-29 13:31:41 | INFO     | app.routes.ai_features | Planning inventory for project id=6
+2026-08-29 13:31:41 | INFO     | app.ai_service | Using mock AI response for feature=inventory
+2026-08-29 13:31:41 | INFO     | app.main | POST /api/ai/inventory/6 -> 200 (15.2ms)
+2026-08-29 13:31:41 | INFO     | app.main | GET /api/projects/6 -> 200 (4.2ms)
+2026-08-29 13:32:56 | INFO     | app.routes.ai_features | Analyzing risks for project id=6
+2026-08-29 13:32:56 | INFO     | app.ai_service | Using mock AI response for feature=risks
+2026-08-29 13:32:56 | INFO     | app.main | POST /api/ai/risks/6 -> 200 (16.8ms)
+2026-08-29 13:32:56 | INFO     | app.main | GET /api/projects/6 -> 200 (6.6ms)
+2026-08-29 13:33:01 | INFO     | app.routes.ai_features | Analyzing quality for project id=6
+2026-08-29 13:33:01 | INFO     | app.ai_service | Using mock AI response for feature=quality
+2026-08-29 13:33:01 | INFO     | app.main | POST /api/ai/quality/6 -> 200 (18.4ms)
+2026-08-29 13:33:01 | INFO     | app.main | GET /api/projects/6 -> 200 (4.2ms)
+2026-08-29 13:33:06 | INFO     | app.routes.ai_features | Predicting maintenance for project id=6
+2026-08-29 13:33:06 | INFO     | app.ai_service | Using mock AI response for feature=maintenance
+2026-08-29 13:33:06 | INFO     | app.main | POST /api/ai/maintenance/6 -> 200 (15.6ms)
+2026-08-29 13:33:06 | INFO     | app.main | GET /api/projects/6 -> 200 (4.0ms)
+2026-08-29 13:34:51 | INFO     | app.report_generator | Generating PPTX report for project id=6 name='Mobile phone manufacturing setup'
+2026-08-29 13:34:51 | INFO     | app.report_generator | PPTX report generated for project id=6 (36 slides)
+2026-08-29 13:34:51 | INFO     | app.routes.projects | Serving PPTX report for project id=6 user=pm_user
+2026-08-29 13:34:51 | INFO     | app.main | GET /api/projects/6/report/pptx -> 200 (167.1ms)
+2026-08-29 13:47:06 | INFO     | app.main | GET /api/ai/chat/6/history -> 200 (7.4ms)
+2026-08-29 13:47:06 | INFO     | app.main | GET /api/ai/chat/6/history -> 200 (4.1ms)
+2026-08-29 13:47:30 | INFO     | app.main | POST /api/ai/chat -> 200 (22.8ms)
+2026-08-29 13:47:56 | INFO     | app.main | POST /api/ai/chat -> 200 (16.5ms)
+2026-08-29 13:52:51 | INFO     | app.routes.projects | Updated project id=6 for user=pm_user
+2026-08-29 13:52:51 | INFO     | app.main | PUT /api/projects/6 -> 200 (15.2ms)
+2026-08-29 13:52:51 | INFO     | app.main | POST /api/projects/6/sync -> 200 (6.3ms)
+2026-08-29 13:53:11 | INFO     | app.routes.ai_features | Generating Gantt for project id=6
+2026-08-29 13:53:11 | INFO     | app.ai_service | Building Gantt schedule from WBS (5 top-level items)
+2026-08-29 13:53:11 | INFO     | app.main | POST /api/ai/gantt/6 -> 200 (20.2ms)
+2026-08-29 13:53:11 | INFO     | app.main | GET /api/projects/6 -> 200 (5.2ms)
+2026-08-29 13:54:54 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 13:54:54 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 13:54:54 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 13:54:54 | INFO     | app.main | Startup complete
+2026-08-29 13:55:00 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 13:55:00 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 13:55:00 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 13:55:00 | INFO     | app.main | Startup complete
+2026-08-29 13:55:37 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 13:55:37 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 13:55:37 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 13:55:37 | INFO     | app.main | Startup complete
+2026-08-29 13:55:37 | INFO     | app.main | GET /api/projects/6 -> 200 (26.0ms)
+2026-08-29 13:55:54 | INFO     | app.main | GET /api/auth/me -> 200 (12.1ms)
+2026-08-29 13:55:54 | INFO     | app.main | GET /api/projects/6 -> 200 (5.4ms)
+2026-08-29 13:55:54 | INFO     | app.main | GET /api/auth/me -> 200 (9.2ms)
+2026-08-29 13:55:54 | INFO     | app.main | GET /api/projects/6 -> 200 (16.5ms)
+2026-08-29 13:55:59 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 13:55:59 | INFO     | app.main | GET /api/projects/ -> 200 (9.2ms)
+2026-08-29 13:55:59 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 13:56:00 | INFO     | app.main | GET /api/projects/ -> 200 (9.5ms)
+2026-08-29 13:57:23 | INFO     | app.main | GET /api/projects/2 -> 200 (4.8ms)
+2026-08-29 13:57:23 | INFO     | app.main | GET /api/projects/2 -> 200 (6.4ms)
+2026-08-29 13:58:01 | INFO     | app.routes.ai_features | Generating charter for project id=2 user=pm_user
+2026-08-29 13:58:01 | INFO     | app.ai_service | Using mock AI response for feature=charter
+2026-08-29 13:58:01 | INFO     | app.main | POST /api/ai/charter/2 -> 200 (27.7ms)
+2026-08-29 13:58:01 | INFO     | app.main | GET /api/projects/2 -> 200 (3.6ms)
+2026-08-29 13:58:50 | INFO     | app.routes.ai_features | Generating WBS for project id=2 user=pm_user
+2026-08-29 13:58:50 | INFO     | app.ai_service | Using mock AI response for feature=wbs
+2026-08-29 13:58:50 | INFO     | app.routes.ai_features | WBS generated successfully for project id=2 (5 items)
+2026-08-29 13:58:50 | INFO     | app.main | POST /api/ai/wbs/2 -> 200 (16.7ms)
+2026-08-29 13:58:50 | INFO     | app.main | GET /api/projects/2 -> 200 (4.5ms)
+2026-08-29 13:59:39 | INFO     | app.routes.projects | Updated project id=2 for user=pm_user
+2026-08-29 13:59:39 | INFO     | app.main | PUT /api/projects/2 -> 200 (24.5ms)
+2026-08-29 14:00:34 | INFO     | app.routes.projects | Updated project id=2 for user=pm_user
+2026-08-29 14:00:34 | INFO     | app.main | PUT /api/projects/2 -> 200 (16.2ms)
+2026-08-29 14:00:45 | INFO     | app.routes.ai_features | Generating WBS for project id=2 user=pm_user
+2026-08-29 14:00:45 | INFO     | app.ai_service | Using mock AI response for feature=wbs
+2026-08-29 14:00:45 | INFO     | app.routes.ai_features | WBS generated successfully for project id=2 (5 items)
+2026-08-29 14:00:45 | INFO     | app.main | POST /api/ai/wbs/2 -> 200 (17.4ms)
+2026-08-29 14:00:46 | INFO     | app.main | GET /api/projects/2 -> 200 (4.0ms)
+2026-08-29 14:01:35 | INFO     | app.routes.projects | Updated project id=2 for user=pm_user
+2026-08-29 14:01:35 | INFO     | app.main | PUT /api/projects/2 -> 200 (14.5ms)
+2026-08-29 14:01:51 | INFO     | app.routes.projects | Updated project id=2 for user=pm_user
+2026-08-29 14:01:51 | INFO     | app.main | PUT /api/projects/2 -> 200 (15.7ms)
+2026-08-29 14:02:08 | INFO     | app.routes.projects | Updated project id=2 for user=pm_user
+2026-08-29 14:02:08 | INFO     | app.main | PUT /api/projects/2 -> 200 (19.0ms)
+2026-08-29 14:02:40 | INFO     | app.routes.projects | Updated project id=2 for user=pm_user
+2026-08-29 14:02:40 | INFO     | app.main | PUT /api/projects/2 -> 200 (16.9ms)
+2026-08-29 14:02:52 | INFO     | app.routes.projects | Updated project id=2 for user=pm_user
+2026-08-29 14:02:52 | INFO     | app.main | PUT /api/projects/2 -> 200 (21.0ms)
+2026-08-29 14:02:58 | INFO     | app.routes.ai_features | Generating Gantt for project id=2
+2026-08-29 14:02:58 | INFO     | app.ai_service | Building Gantt schedule from WBS (4 top-level items)
+2026-08-29 14:02:58 | INFO     | app.main | POST /api/ai/gantt/2 -> 200 (28.2ms)
+2026-08-29 14:02:58 | INFO     | app.main | GET /api/projects/2 -> 200 (5.6ms)
+2026-08-29 14:06:39 | INFO     | app.routes.ai_features | Optimizing resources for project id=2
+2026-08-29 14:06:39 | INFO     | app.ai_service | Using mock AI response for feature=resources
+2026-08-29 14:06:39 | INFO     | app.main | POST /api/ai/resources/2 -> 200 (28.6ms)
+2026-08-29 14:06:39 | INFO     | app.main | GET /api/projects/2 -> 200 (5.5ms)
+2026-08-29 14:10:04 | INFO     | app.routes.projects | Updated project id=2 for user=pm_user
+2026-08-29 14:10:04 | INFO     | app.main | PUT /api/projects/2 -> 200 (18.3ms)
+2026-08-29 14:11:18 | INFO     | app.routes.ai_features | Analyzing budget for project id=2
+2026-08-29 14:11:18 | INFO     | app.ai_service | Using mock AI response for feature=budget
+2026-08-29 14:11:18 | INFO     | app.main | POST /api/ai/budget/2 -> 200 (15.6ms)
+2026-08-29 14:11:18 | INFO     | app.main | GET /api/projects/2 -> 200 (6.4ms)
+2026-08-29 14:11:51 | INFO     | app.routes.projects | Updated gantt task on project id=2: {'overall_progress': 0.0, 'completed_tasks': 0, 'total_tasks': 12, 'delayed_tasks': 4, 'health_score': 35.0}
+2026-08-29 14:11:51 | INFO     | app.main | PATCH /api/projects/2/gantt/task -> 200 (22.8ms)
+2026-08-29 14:11:53 | INFO     | app.routes.projects | Updated gantt task on project id=2: {'overall_progress': 0.0, 'completed_tasks': 0, 'total_tasks': 12, 'delayed_tasks': 4, 'health_score': 35.0}
+2026-08-29 14:11:53 | INFO     | app.main | PATCH /api/projects/2/gantt/task -> 200 (13.8ms)
+2026-08-29 14:11:57 | INFO     | app.routes.projects | Updated gantt task on project id=2: {'overall_progress': 1.7, 'completed_tasks': 0, 'total_tasks': 12, 'delayed_tasks': 4, 'health_score': 35.6}
+2026-08-29 14:11:57 | INFO     | app.main | PATCH /api/projects/2/gantt/task -> 200 (20.7ms)
+2026-08-29 14:12:05 | INFO     | app.routes.projects | Updated gantt task on project id=2: {'overall_progress': 1.7, 'completed_tasks': 0, 'total_tasks': 12, 'delayed_tasks': 4, 'health_score': 35.6}
+2026-08-29 14:12:05 | INFO     | app.main | PATCH /api/projects/2/gantt/task -> 200 (21.5ms)
+2026-08-29 14:14:57 | INFO     | app.main | POST /api/auth/login -> 200 (278.4ms)
+2026-08-29 14:14:57 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:14:57 | INFO     | app.main | GET /api/projects/ -> 200 (7.7ms)
+2026-08-29 14:14:57 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:14:57 | INFO     | app.main | GET /api/projects/ -> 200 (6.5ms)
+2026-08-29 14:15:00 | INFO     | app.main | GET /api/projects/2 -> 200 (9.6ms)
+2026-08-29 14:15:00 | INFO     | app.main | GET /api/projects/2 -> 200 (7.4ms)
+2026-08-29 14:15:22 | INFO     | app.routes.ai_features | Generating Gantt for project id=2
+2026-08-29 14:15:22 | INFO     | app.ai_service | Building Gantt schedule from WBS (4 top-level items)
+2026-08-29 14:15:22 | INFO     | app.main | POST /api/ai/gantt/2 -> 200 (7.5ms)
+2026-08-29 14:15:22 | INFO     | app.main | GET /api/projects/2 -> 200 (4.9ms)
+2026-08-29 14:15:26 | INFO     | app.routes.ai_features | Generating Gantt for project id=2
+2026-08-29 14:15:26 | INFO     | app.ai_service | Building Gantt schedule from WBS (4 top-level items)
+2026-08-29 14:15:26 | INFO     | app.main | POST /api/ai/gantt/2 -> 200 (7.2ms)
+2026-08-29 14:15:26 | INFO     | app.main | GET /api/projects/2 -> 200 (3.8ms)
+2026-08-29 14:16:40 | INFO     | app.routes.projects | Updated gantt task on project id=2: {'overall_progress': 10.0, 'completed_tasks': 1, 'total_tasks': 12, 'delayed_tasks': 3, 'health_score': 43.5}
+2026-08-29 14:16:40 | INFO     | app.main | PATCH /api/projects/2/gantt/task -> 200 (19.9ms)
+2026-08-29 14:16:44 | INFO     | app.routes.projects | Updated gantt task on project id=2: {'overall_progress': 16.7, 'completed_tasks': 2, 'total_tasks': 12, 'delayed_tasks': 2, 'health_score': 50.8}
+2026-08-29 14:16:44 | INFO     | app.main | PATCH /api/projects/2/gantt/task -> 200 (18.8ms)
+2026-08-29 14:16:48 | INFO     | app.routes.projects | Updated gantt task on project id=2: {'overall_progress': 25.0, 'completed_tasks': 3, 'total_tasks': 12, 'delayed_tasks': 1, 'health_score': 58.8}
+2026-08-29 14:16:48 | INFO     | app.main | PATCH /api/projects/2/gantt/task -> 200 (15.9ms)
+2026-08-29 14:16:53 | INFO     | app.routes.projects | Updated gantt task on project id=2: {'overall_progress': 33.3, 'completed_tasks': 4, 'total_tasks': 12, 'delayed_tasks': 0, 'health_score': 76.7}
+2026-08-29 14:16:53 | INFO     | app.main | PATCH /api/projects/2/gantt/task -> 200 (16.8ms)
+2026-08-29 14:21:57 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 14:21:57 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:21:57 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:21:57 | INFO     | app.main | Startup complete
+2026-08-29 14:22:03 | INFO     | app.main | Starting Manufacturing PM AI Agent
+2026-08-29 14:22:03 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:22:03 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:22:03 | INFO     | app.main | Startup complete
+2026-08-29 14:22:03 | INFO     | app.main | GET /api/projects/2 -> 200 (89.4ms)
+2026-08-29 14:31:14 | INFO     | app.main | GET /api/auth/me -> 200 (163.8ms)
+2026-08-29 14:31:14 | INFO     | app.main | GET /api/projects/2 -> 200 (167.4ms)
+2026-08-29 14:31:14 | INFO     | app.main | GET /api/auth/me -> 200 (111.5ms)
+2026-08-29 14:31:14 | INFO     | app.main | GET /api/projects/2 -> 200 (122.4ms)
+2026-08-29 14:34:22 | INFO     | app.main | GET /api/auth/me -> 200 (11.5ms)
+2026-08-29 14:34:22 | INFO     | app.main | GET /api/auth/me -> 200 (12.4ms)
+2026-08-29 14:34:23 | INFO     | app.main | GET /api/projects/2 -> 200 (22.6ms)
+2026-08-29 14:34:23 | INFO     | app.main | GET /api/projects/2 -> 200 (13.4ms)
+2026-08-29 14:34:36 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:34:36 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:34:36 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:34:36 | INFO     | app.main | Startup complete
+2026-08-29 14:38:18 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:38:18 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:38:18 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:38:18 | INFO     | app.main | Startup complete
+2026-08-29 14:38:24 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:38:24 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:38:24 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:38:24 | INFO     | app.main | Startup complete
+2026-08-29 14:38:30 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:38:30 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:38:30 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:38:30 | INFO     | app.main | Startup complete
+2026-08-29 14:38:36 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:38:36 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:38:36 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:38:36 | INFO     | app.main | Startup complete
+2026-08-29 14:38:43 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:38:43 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:38:43 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:38:43 | INFO     | app.main | Startup complete
+2026-08-29 14:38:48 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:38:48 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:38:48 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:38:48 | INFO     | app.main | Startup complete
+2026-08-29 14:39:54 | INFO     | app.routes.ai_features | Generating Gantt for project id=2
+2026-08-29 14:39:54 | INFO     | app.ai_service | Building Gantt schedule from WBS (4 top-level items)
+2026-08-29 14:39:54 | INFO     | app.main | POST /api/ai/gantt/2 -> 200 (121.6ms)
+2026-08-29 14:39:54 | INFO     | app.main | GET /api/projects/2 -> 200 (11.4ms)
+2026-08-29 14:43:01 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:43:01 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:43:01 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:43:01 | INFO     | app.main | Startup complete
+2026-08-29 14:43:10 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:43:10 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:43:10 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:43:10 | INFO     | app.main | Startup complete
+2026-08-29 14:43:44 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:43:44 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:43:44 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:43:44 | INFO     | app.main | Startup complete
+2026-08-29 14:43:53 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:43:53 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:43:53 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:43:53 | INFO     | app.main | Startup complete
+2026-08-29 14:44:18 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:44:18 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:44:18 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:44:18 | INFO     | app.main | Startup complete
+2026-08-29 14:44:23 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:44:23 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:44:23 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:44:23 | INFO     | app.main | Startup complete
+2026-08-29 14:44:37 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:44:37 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:44:37 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:44:37 | INFO     | app.main | Startup complete
+2026-08-29 14:45:04 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:45:04 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:45:04 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:45:04 | INFO     | app.main | Startup complete
+2026-08-29 14:45:13 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:45:13 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:45:13 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:45:13 | INFO     | app.main | Startup complete
+2026-08-29 14:45:31 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:45:31 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:45:31 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:45:31 | INFO     | app.main | Startup complete
+2026-08-29 14:45:40 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:45:40 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:45:40 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:45:40 | INFO     | app.main | Startup complete
+2026-08-29 14:45:58 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:45:58 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:45:58 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:45:58 | INFO     | app.main | Startup complete
+2026-08-29 14:46:02 | INFO     | app.main | GET /api/projects/2 -> 200 (118.7ms)
+2026-08-29 14:46:02 | INFO     | app.main | GET /api/auth/me -> 200 (170.0ms)
+2026-08-29 14:46:02 | INFO     | app.main | GET /api/projects/2 -> 200 (36.2ms)
+2026-08-29 14:46:02 | INFO     | app.main | GET /api/auth/me -> 200 (28.1ms)
+2026-08-29 14:46:09 | INFO     | app.routes.ai_features | Generating Gantt for project id=2
+2026-08-29 14:46:09 | INFO     | app.ai_service | Building Gantt schedule from WBS (4 top-level items)
+2026-08-29 14:46:09 | INFO     | app.main | POST /api/ai/gantt/2 -> 200 (90.1ms)
+2026-08-29 14:46:09 | INFO     | app.main | GET /api/projects/2 -> 200 (9.4ms)
+2026-08-29 14:47:23 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:47:23 | INFO     | app.main | GET /api/projects/ -> 200 (20.8ms)
+2026-08-29 14:47:24 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:47:24 | INFO     | app.main | GET /api/projects/ -> 200 (10.1ms)
+2026-08-29 14:47:26 | INFO     | app.main | GET /api/projects/2 -> 200 (13.4ms)
+2026-08-29 14:47:26 | INFO     | app.main | GET /api/projects/2 -> 200 (15.5ms)
+2026-08-29 14:47:32 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:47:32 | INFO     | app.main | GET /api/projects/ -> 200 (14.0ms)
+2026-08-29 14:47:32 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:47:32 | INFO     | app.main | GET /api/projects/ -> 200 (21.7ms)
+2026-08-29 14:47:36 | INFO     | app.main | GET /api/projects/4 -> 200 (12.6ms)
+2026-08-29 14:47:36 | INFO     | app.main | GET /api/projects/4 -> 200 (9.6ms)
+2026-08-29 14:47:48 | INFO     | app.routes.ai_features | Generating Gantt for project id=4
+2026-08-29 14:47:48 | INFO     | app.ai_service | Building Gantt schedule from WBS (4 top-level items)
+2026-08-29 14:47:48 | INFO     | app.main | POST /api/ai/gantt/4 -> 200 (33.8ms)
+2026-08-29 14:47:48 | INFO     | app.main | GET /api/projects/4 -> 200 (11.7ms)
+2026-08-29 14:50:30 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (16.2ms)
+2026-08-29 14:50:31 | INFO     | app.main | GET /api/ai/chat/4/history -> 200 (10.9ms)
+2026-08-29 14:50:52 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:50:52 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:50:52 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:50:52 | INFO     | app.main | Startup complete
+2026-08-29 14:50:57 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:50:57 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:50:57 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:50:57 | INFO     | app.main | Startup complete
+2026-08-29 14:51:08 | INFO     | app.main | GET /api/projects/4 -> 200 (115.5ms)
+2026-08-29 14:51:09 | INFO     | app.main | GET /api/projects/4 -> 200 (19.3ms)
+2026-08-29 14:51:18 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:51:18 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:51:18 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:51:18 | INFO     | app.main | Startup complete
+2026-08-29 14:51:29 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:51:29 | INFO     | app.main | GET /api/projects/ -> 200 (150.4ms)
+2026-08-29 14:51:29 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:51:29 | INFO     | app.main | GET /api/projects/ -> 200 (16.7ms)
+2026-08-29 14:51:31 | INFO     | app.main | GET /api/projects/2 -> 200 (41.5ms)
+2026-08-29 14:51:32 | INFO     | app.main | GET /api/projects/2 -> 200 (19.3ms)
+2026-08-29 14:52:05 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:52:05 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:52:05 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:52:05 | INFO     | app.main | Startup complete
+2026-08-29 14:52:29 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:52:29 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:52:29 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:52:29 | INFO     | app.main | Startup complete
+2026-08-29 14:52:52 | INFO     | app.main | GET /api/auth/me -> 200 (102.0ms)
+2026-08-29 14:52:52 | INFO     | app.main | GET /api/projects/2 -> 200 (123.3ms)
+2026-08-29 14:52:52 | INFO     | app.main | GET /api/auth/me -> 200 (19.5ms)
+2026-08-29 14:52:52 | INFO     | app.main | GET /api/projects/2 -> 200 (19.4ms)
+2026-08-29 14:52:59 | INFO     | app.routes.ai_features | Generating Gantt for project id=2
+2026-08-29 14:52:59 | INFO     | app.ai_service | Building Gantt schedule from WBS (4 top-level items)
+2026-08-29 14:52:59 | INFO     | app.main | POST /api/ai/gantt/2 -> 200 (74.8ms)
+2026-08-29 14:52:59 | INFO     | app.main | GET /api/projects/2 -> 200 (11.7ms)
+2026-08-29 14:53:03 | INFO     | app.routes.ai_features | Generating Gantt for project id=2
+2026-08-29 14:53:03 | INFO     | app.ai_service | Building Gantt schedule from WBS (4 top-level items)
+2026-08-29 14:53:03 | INFO     | app.main | POST /api/ai/gantt/2 -> 200 (16.7ms)
+2026-08-29 14:53:03 | INFO     | app.main | GET /api/projects/2 -> 200 (10.8ms)
+2026-08-29 14:56:00 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:56:00 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:56:00 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:56:00 | INFO     | app.main | Startup complete
+2026-08-29 14:56:14 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:56:14 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:56:14 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:56:14 | INFO     | app.main | Startup complete
+2026-08-29 14:56:43 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:56:43 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:56:43 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:56:43 | INFO     | app.main | Startup complete
+2026-08-29 14:57:01 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:57:01 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:57:01 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:57:01 | INFO     | app.main | Startup complete
+2026-08-29 14:57:20 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:57:20 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:57:20 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:57:20 | INFO     | app.main | Startup complete
+2026-08-29 14:57:29 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:57:29 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:57:29 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:57:29 | INFO     | app.main | Startup complete
+2026-08-29 14:59:11 | INFO     | app.main | Starting ProjectIQ
+2026-08-29 14:59:11 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-08-29 14:59:11 | INFO     | app.main | WiFi Router project ready: id=4
+2026-08-29 14:59:11 | INFO     | app.main | Startup complete
+2026-08-29 14:59:29 | INFO     | app.main | GET /api/auth/me -> 200 (78.7ms)
+2026-08-29 14:59:29 | INFO     | app.main | GET /api/auth/me -> 200 (26.7ms)
+2026-08-29 14:59:29 | INFO     | app.main | GET /api/projects/2 -> 200 (95.6ms)
+2026-08-29 14:59:29 | INFO     | app.main | GET /api/projects/2 -> 200 (14.0ms)
+2026-08-29 14:59:59 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:59:59 | INFO     | app.main | GET /api/projects/ -> 200 (16.7ms)
+2026-08-29 14:59:59 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 14:59:59 | INFO     | app.main | GET /api/projects/ -> 200 (14.1ms)
+2026-08-29 15:00:12 | INFO     | app.routes.projects | Deleted project id=3 name='test project 1' for user=pm_user
+2026-08-29 15:00:12 | INFO     | app.main | DELETE /api/projects/3 -> 200 (41.2ms)
+2026-08-29 15:00:12 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 15:00:12 | INFO     | app.main | GET /api/projects/ -> 200 (10.6ms)
+2026-08-29 15:04:37 | INFO     | app.main | POST /api/auth/login -> 200 (386.5ms)
+2026-08-29 15:04:37 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 15:04:37 | INFO     | app.main | GET /api/projects/ -> 200 (17.7ms)
+2026-08-29 15:04:37 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 15:04:37 | INFO     | app.main | GET /api/projects/ -> 200 (19.7ms)
+2026-08-29 15:04:55 | INFO     | app.main | GET /api/projects/2 -> 200 (17.4ms)
+2026-08-29 15:04:55 | INFO     | app.main | GET /api/projects/2 -> 200 (9.2ms)
+2026-08-29 15:10:03 | INFO     | app.routes.ai_features | Generating WBS for project id=2 user=pm_user
+2026-08-29 15:10:03 | INFO     | app.ai_service | Using mock AI response for feature=wbs
+2026-08-29 15:10:03 | INFO     | app.routes.ai_features | WBS generated successfully for project id=2 (5 items)
+2026-08-29 15:10:03 | INFO     | app.main | POST /api/ai/wbs/2 -> 200 (50.1ms)
+2026-08-29 15:10:03 | INFO     | app.main | GET /api/projects/2 -> 200 (10.5ms)
+2026-08-29 15:12:20 | INFO     | app.routes.ai_features | Planning inventory for project id=2
+2026-08-29 15:12:20 | INFO     | app.ai_service | Using mock AI response for feature=inventory
+2026-08-29 15:12:20 | INFO     | app.main | POST /api/ai/inventory/2 -> 200 (37.2ms)
+2026-08-29 15:12:20 | INFO     | app.main | GET /api/projects/2 -> 200 (9.8ms)
+2026-08-29 15:14:08 | INFO     | app.routes.ai_features | Analyzing budget for project id=2
+2026-08-29 15:14:08 | INFO     | app.ai_service | Using mock AI response for feature=budget
+2026-08-29 15:14:08 | INFO     | app.main | POST /api/ai/budget/2 -> 200 (14.2ms)
+2026-08-29 15:14:09 | INFO     | app.main | GET /api/projects/2 -> 200 (17.6ms)
+2026-08-29 15:16:11 | INFO     | app.routes.ai_features | Analyzing risks for project id=2
+2026-08-29 15:16:11 | INFO     | app.ai_service | Using mock AI response for feature=risks
+2026-08-29 15:16:11 | INFO     | app.main | POST /api/ai/risks/2 -> 200 (75.6ms)
+2026-08-29 15:16:11 | INFO     | app.main | GET /api/projects/2 -> 200 (12.9ms)
+2026-08-29 15:16:17 | INFO     | app.routes.ai_features | Analyzing quality for project id=2
+2026-08-29 15:16:17 | INFO     | app.ai_service | Using mock AI response for feature=quality
+2026-08-29 15:16:17 | INFO     | app.main | POST /api/ai/quality/2 -> 200 (43.3ms)
+2026-08-29 15:16:18 | INFO     | app.main | GET /api/projects/2 -> 200 (7.1ms)
+2026-08-29 15:16:23 | INFO     | app.routes.ai_features | Predicting maintenance for project id=2
+2026-08-29 15:16:23 | INFO     | app.ai_service | Using mock AI response for feature=maintenance
+2026-08-29 15:16:23 | INFO     | app.main | POST /api/ai/maintenance/2 -> 200 (79.1ms)
+2026-08-29 15:16:24 | INFO     | app.main | GET /api/projects/2 -> 200 (15.5ms)
+2026-08-29 15:16:46 | INFO     | app.main | GET /api/ai/chat/2/history -> 200 (18.8ms)
+2026-08-29 15:16:46 | INFO     | app.main | GET /api/ai/chat/2/history -> 200 (14.0ms)
+2026-08-29 15:23:20 | INFO     | app.main | POST /api/auth/login -> 200 (451.5ms)
+2026-08-29 15:23:21 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 15:23:21 | INFO     | app.main | GET /api/projects/ -> 200 (47.2ms)
+2026-08-29 15:23:21 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 15:23:21 | INFO     | app.main | GET /api/projects/ -> 200 (15.6ms)
+2026-08-29 15:23:40 | INFO     | app.main | GET /api/projects/2 -> 200 (22.8ms)
+2026-08-29 15:23:40 | INFO     | app.main | GET /api/projects/2 -> 200 (17.6ms)
+2026-08-29 15:30:14 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 15:30:14 | INFO     | app.main | GET /api/projects/ -> 200 (27.7ms)
+2026-08-29 15:30:14 | INFO     | app.routes.projects | Listed 5 projects for user=pm_user
+2026-08-29 15:30:14 | INFO     | app.main | GET /api/projects/ -> 200 (16.4ms)
+2026-08-29 15:31:44 | INFO     | app.routes.projects | Created project id=7 name='Project to create mobile phones' for user=pm_user
+2026-08-29 15:31:44 | INFO     | app.main | POST /api/projects/ -> 200 (78.4ms)
+2026-08-29 15:31:45 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 15:31:45 | INFO     | app.main | GET /api/projects/ -> 200 (22.3ms)
+2026-08-29 15:31:47 | INFO     | app.main | GET /api/projects/7 -> 200 (17.2ms)
+2026-08-29 15:31:47 | INFO     | app.main | GET /api/projects/7 -> 200 (32.1ms)
+2026-08-29 15:31:56 | INFO     | app.routes.ai_features | Generating charter for project id=7 user=pm_user
+2026-08-29 15:31:56 | INFO     | app.ai_service | Using mock AI response for feature=charter
+2026-08-29 15:31:56 | INFO     | app.main | POST /api/ai/charter/7 -> 200 (66.1ms)
+2026-08-29 15:31:56 | INFO     | app.main | GET /api/projects/7 -> 200 (8.1ms)
+2026-08-29 15:32:12 | INFO     | app.routes.ai_features | Generating WBS for project id=7 user=pm_user
+2026-08-29 15:32:12 | INFO     | app.ai_service | Using mock AI response for feature=wbs
+2026-08-29 15:32:12 | INFO     | app.routes.ai_features | WBS generated successfully for project id=7 (5 items)
+2026-08-29 15:32:12 | INFO     | app.main | POST /api/ai/wbs/7 -> 200 (62.3ms)
+2026-08-29 15:32:12 | INFO     | app.main | GET /api/projects/7 -> 200 (9.1ms)
+2026-08-29 15:32:29 | INFO     | app.routes.ai_features | Generating Gantt for project id=7
+2026-08-29 15:32:29 | INFO     | app.ai_service | Building Gantt schedule from WBS (5 top-level items)
+2026-08-29 15:32:29 | INFO     | app.main | POST /api/ai/gantt/7 -> 200 (95.7ms)
+2026-08-29 15:32:29 | INFO     | app.main | GET /api/projects/7 -> 200 (12.8ms)
+2026-08-29 15:32:39 | INFO     | app.routes.ai_features | Optimizing resources for project id=7
+2026-08-29 15:32:39 | INFO     | app.ai_service | Using mock AI response for feature=resources
+2026-08-29 15:32:39 | INFO     | app.main | POST /api/ai/resources/7 -> 200 (78.1ms)
+2026-08-29 15:32:39 | INFO     | app.main | GET /api/projects/7 -> 200 (12.8ms)
+2026-08-29 15:32:44 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 15:32:44 | INFO     | app.main | GET /api/projects/ -> 200 (64.8ms)
+2026-08-29 15:32:44 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 15:32:44 | INFO     | app.main | GET /api/projects/ -> 200 (14.7ms)
+2026-08-29 15:32:45 | INFO     | app.main | GET /api/projects/2 -> 200 (29.2ms)
+2026-08-29 15:32:45 | INFO     | app.main | GET /api/projects/2 -> 200 (13.3ms)
+2026-08-29 15:32:47 | INFO     | app.main | GET /api/ai/chat/2/history -> 200 (19.0ms)
+2026-08-29 15:32:47 | INFO     | app.main | GET /api/ai/chat/2/history -> 200 (17.4ms)
+2026-08-29 15:32:51 | INFO     | app.main | POST /api/ai/chat -> 200 (47.0ms)
+2026-08-29 15:33:03 | INFO     | app.report_generator | Generating PPTX report for project id=2 name='Adding new production line'
+2026-08-29 15:33:04 | INFO     | app.report_generator | PPTX report generated for project id=2 (36 slides)
+2026-08-29 15:33:04 | INFO     | app.routes.projects | Serving PPTX report for project id=2 user=pm_user
+2026-08-29 15:33:04 | INFO     | app.main | GET /api/projects/2/report/pptx -> 200 (342.7ms)
+2026-08-29 15:33:51 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 15:33:51 | INFO     | app.main | GET /api/projects/ -> 200 (19.9ms)
+2026-08-29 15:33:51 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 15:33:51 | INFO     | app.main | GET /api/projects/ -> 200 (16.4ms)
+2026-08-29 15:34:32 | INFO     | app.main | GET /api/projects/2 -> 200 (17.1ms)
+2026-08-29 15:34:32 | INFO     | app.main | GET /api/projects/2 -> 200 (14.9ms)
+2026-08-29 15:36:09 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 15:36:09 | INFO     | app.main | GET /api/projects/ -> 200 (19.2ms)
+2026-08-29 15:36:09 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-08-29 15:36:09 | INFO     | app.main | GET /api/projects/ -> 200 (16.6ms)
+2026-08-29 15:36:14 | INFO     | app.main | GET /api/projects/2 -> 200 (16.6ms)
+2026-08-29 15:36:14 | INFO     | app.main | GET /api/projects/2 -> 200 (14.5ms)
+2026-09-11 23:07:12 | INFO     | app.main | Starting ProjectIQ
+2026-09-11 23:07:12 | INFO     | app.main | Log file: C:\curser\aiAgent\backend\logs\app.log
+2026-09-11 23:07:12 | INFO     | app.main | WiFi Router project ready: id=4
+2026-09-11 23:07:12 | INFO     | app.main | Startup complete
+2026-09-11 23:07:28 | INFO     | app.main | GET /api/auth/me -> 401 (90.2ms)
+2026-09-11 23:07:29 | INFO     | app.main | GET /api/projects/ -> 401 (144.4ms)
+2026-09-11 23:07:29 | INFO     | app.main | GET /api/auth/me -> 401 (58.5ms)
+2026-09-11 23:07:37 | INFO     | app.main | POST /api/auth/login -> 200 (480.3ms)
+2026-09-11 23:07:37 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-09-11 23:07:37 | INFO     | app.main | GET /api/projects/ -> 200 (45.3ms)
+2026-09-11 23:07:37 | INFO     | app.routes.projects | Listed 6 projects for user=pm_user
+2026-09-11 23:07:37 | INFO     | app.main | GET /api/projects/ -> 200 (82.7ms)
+2026-09-11 23:07:39 | INFO     | app.main | GET /api/projects/1 -> 200 (79.3ms)
+2026-09-11 23:07:40 | INFO     | app.main | GET /api/projects/1 -> 200 (30.6ms)
+2026-09-11 23:31:25 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (340.5ms)
+2026-09-11 23:31:25 | INFO     | app.main | GET /api/ai/chat/1/history -> 200 (23.0ms)
