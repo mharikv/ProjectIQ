@@ -15,7 +15,11 @@ services:
         generateValue: true
       - key: OPENAI_API_KEY
         sync: false
-    disk:
-      name: projectiq-data
-      mountPath: /app/data
-      sizeGB: 1
+
+# Free tier does not support persistent disks. Data is re-seeded on each deploy.
+# For persistent storage, upgrade to Starter ($7/mo) and add:
+#
+#    disk:
+#      name: projectiq-data
+#      mountPath: /app/data
+#      sizeGB: 1
